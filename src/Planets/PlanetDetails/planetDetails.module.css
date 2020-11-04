@@ -8,3 +8,8 @@
     text-align: center;
     padding: 15px;
 }
+
+.residentsContainer {
+    display: flex;
+    flex-direction: row;
+}

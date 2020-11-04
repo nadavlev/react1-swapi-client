@@ -8,6 +8,7 @@ import classes from './App.module.css';
 import PersonDetails from "./People/PersonDetails/PersonDetails";
 import PlanetDetails from "./Planets/PlanetDetails/PlanetDetails";
 import SpeciesDetails from "./Species/SpeciesDetails/SpeciesDetails";
+import home from "./home";
 
 class App extends Component {
 
@@ -20,7 +21,7 @@ class App extends Component {
                     </header>
                         <nav>
                             <ul>
-                                {/*<li><a href="/">Home</a></li>*/}
+                                <li><a href="/">Home</a></li>
                                 <li><NavLink to="/people" exact>People</NavLink></li>
                                 <li><NavLink to="/planets" exact>Planets</NavLink></li>
                                 <li><NavLink to="/species" exact>Species</NavLink></li>
@@ -32,6 +33,7 @@ class App extends Component {
                     <Route path="/planetDetails/:id" exact component={PlanetDetails} />
                     <Route path="/species" exact component={Species} />
                     <Route path="/speciesDetails/:id" exact component={SpeciesDetails} />
+                    <Route path="/" exact component={home} />
                 </div>
             </BrowserRouter>
     )

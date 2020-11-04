@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7f762d3-9ff9-4347-a611-a08abead0d9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/People.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/Person/Person.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/Person/person.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/PersonDetails/PersonDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/PersonDetails/personDetails.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Planets/Planet/Planet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Planets/Planet/planet.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Planets/PlanetDetails/PlanetDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Planets/PlanetDetails/planetDetails.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Planets/Planets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Planets/planets.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Species/Species.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Species/SpeciesDetails/SpeciesDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Species/SpeciesDetails/speciesDetails.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Species/Specy/Spesy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Species/Specy/specy.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Planets/PlanetDetails/PlanetDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/PlanetDetails/PlanetDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Planets/PlanetDetails/planetDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/PlanetDetails/planetDetails.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Species/SpeciesDetails/SpeciesDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Species/SpeciesDetails/SpeciesDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Species/SpeciesDetails/speciesDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Species/SpeciesDetails/speciesDetails.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +74,7 @@
       <workItem from="1604395019315" duration="347000" />
       <workItem from="1604396500985" duration="720000" />
       <workItem from="1604413392924" duration="24072000" />
+      <workItem from="1604510553783" duration="3067000" />
     </task>
     <servers />
   </component>

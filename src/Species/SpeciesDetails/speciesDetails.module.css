@@ -8,3 +8,8 @@
     text-align: center;
     padding: 15px;
 }
+
+.personContainer {
+    display: flex;
+    flex-direction: row;
+}

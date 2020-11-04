@@ -30,8 +30,8 @@ export class PersonDetails extends Component {
                 <p>Species: {this.state.personDetails.species}</p>
                 <div onClick={() => this.props.onToggleFavorite(this.props.match.params.id)}>
                     {this.props.favoritePeople[this.props.match.params.id] ?
-                        'Favorite'
-                        : 'Not Favorite'
+                        <span className={classes.favoritesButton}>Favorite</span>
+                        : <span className={classes.notFavoritesButton}>Not Favorite</span>
                     }
                 </div><br/>
             </div>

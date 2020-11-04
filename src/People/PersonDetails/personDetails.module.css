@@ -8,3 +8,12 @@
     text-align: center;
     padding: 15px;
 }
+.favoritesButton {
+    background-color: aquamarine;
+}
+
+.notFavoritesButton:hover,
+.favoritesButton:hover {
+    color: crimson;
+    background-color: white;
+}

@@ -1,0 +1,14 @@
+.person-name {
+    width: 100px;
+}
+
+.Person {
+    width: 125px;
+    margin: auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 16px;
+    text-align: center;
+    padding: 15px;
+    height: 150px;
+}

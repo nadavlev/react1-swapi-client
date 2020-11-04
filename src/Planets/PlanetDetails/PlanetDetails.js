@@ -3,10 +3,12 @@ import axios from "axios";
 import classes from './planetDetails.module.css'
 import extractIdFromURL from "../../utils";
 import Person from "../../People/Person/Person";
+import {connect} from 'react-redux'
 export class PlanetDetails extends Component {
     state = {
         planetData: {},
-        residentPeople: []
+        residentPeople: [],
+        favoritePeopleCount: 0
     };
 
 
@@ -15,11 +17,10 @@ export class PlanetDetails extends Component {
         axios.get('https://swapi.dev/api/planets/'+id).then(response => {
             this.setState({planetData: response.data});
             response.data.residents.map( async resident => {
-                const {id, selfUrl} = extractIdFromURL(resident);
+                const {id} = extractIdFromURL(resident);
                 axios.get('https://swapi.dev/api/people/'+id).then(personDetails => {
                     let person = personDetails.data;
                     person.id = id;
-
                     this.setState({residentPeople: [...this.state.residentPeople, person]});
                 });
             });
@@ -54,4 +55,10 @@ export class PlanetDetails extends Component {
     }
 }
 
-export default PlanetDetails;
+const mapStateToProps = state => {
+    return {
+        favoritePeople: state.favoritePeople
+    }
+}
+
+export default connect(mapStateToProps)(PlanetDetails);

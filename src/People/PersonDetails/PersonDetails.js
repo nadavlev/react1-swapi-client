@@ -18,6 +18,7 @@ export class PersonDetails extends Component {
         return (
             <div className={classes.PersonDetails}>
                 <h1>{this.state.personDetails.name}</h1>
+                {/*Possibly do with loop*/}
                 <p>Birth Date: {this.state.personDetails.birth_year}</p>
                 <p>Eye Color: {this.state.personDetails.eye_color}</p>
                 <p>Gender: {this.state.personDetails.gender}</p>

@@ -8,21 +8,34 @@ import { connect } from 'react-redux'
 
 export class People extends Component {
 
-    state = {people: []};
+    state = {
+        people: [],
+        filteredPeopleList: []
+    };
+
 
     componentDidMount() {
-        axios.get('https://swapi.dev/api/people/').then(response => {
-            const people = response.data.results.map(person => {
+        getPeople('https://swapi.dev/api/people/', [], (response)=> {
+            const people = response.map(person => {
                 const {id, selfUrl} = extractIdFromURL(person.url);
                 return {...person, id, selfUrl}
             })
-            this.setState({people})
+            this.setState({people ,filteredPeopleList: people})
+        }, err => console.error)
+    }
+
+    filterPeople = (event) => {
+        const filterValue = event.target.value.toLowerCase();
+        const filteredPeopleList = this.state.people.filter(person => {
+            const name = person.name.toLowerCase();
+            return name.indexOf(filterValue) !== -1;
         });
+        this.setState({filteredPeopleList})
     }
 
     render() {
 
-        const peopleList = this.state.people.map(person => {
+        const peopleList = this.state.filteredPeopleList.map(person => {
             return (
                 <Person
                     key={person.id}
@@ -32,13 +45,35 @@ export class People extends Component {
         });
 
         return (
-            <div className={classes.ListContainer}>
-                {peopleList}
+            <div>
+                <div>
+                    Filter <input type="text" onChange={(value) => this.filterPeople(value)}/>
+                </div>
+                <div className={classes.ListContainer}>
+                    {peopleList}
+                </div>
             </div>
         )
     }
 
 }
+
+export const getPeople = (url, people, resolve, reject) => {
+    axios.get(url)
+        .then(response => {
+            const retrievedPeople = people.concat(response.data.results)
+            if (response.data.next !== null) {
+                getPeople(response.data.next, retrievedPeople, resolve, reject)
+            } else {
+                resolve(retrievedPeople)
+            }
+        })
+        .catch(error => {
+            console.log(error)
+            reject('Something wrong. Please refresh the page and try again.')
+        })
+}
+
 
 const mapStateToProps = state => {
     return {

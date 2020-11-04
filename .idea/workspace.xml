@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7f762d3-9ff9-4347-a611-a08abead0d9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/People.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/People.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/Person/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/Person/person.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/Person/person.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/PersonDetails/PersonDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/PersonDetails/PersonDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Planets/PlanetDetails/PlanetDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/PlanetDetails/PlanetDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Planets/PlanetDetails/planetDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planets/PlanetDetails/planetDetails.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Species/SpeciesDetails/SpeciesDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Species/SpeciesDetails/SpeciesDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Species/SpeciesDetails/speciesDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Species/SpeciesDetails/speciesDetails.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +76,24 @@
       <workItem from="1604395019315" duration="347000" />
       <workItem from="1604396500985" duration="720000" />
       <workItem from="1604413392924" duration="24072000" />
-      <workItem from="1604510553783" duration="3067000" />
+      <workItem from="1604510553783" duration="10669000" />
     </task>
+    <task id="LOCAL-00001" summary="Display people on planets and species">
+      <created>1604515409119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604515409119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Display people on planets and species" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display people on planets and species" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604438229700">
@@ -90,10 +104,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="354" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/-1075.-2160.4096.2160@0.0.1920.1040" timestamp="1604307467207" />
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1604515406800">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040/-1075.-2160.4096.2160@0.0.1920.1040" timestamp="1604515406800" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604307585078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1075.-2160.4096.2160@0.0.1920.1040" timestamp="1604307585077" />
+    <state x="-187" y="-1599" width="1406" height="1022" key="dock-window-1" timestamp="1604516551683">
+      <screen x="-1075" y="-2160" width="4096" height="2160" />
+    </state>
+    <state x="-187" y="-1599" width="1406" height="1022" key="dock-window-1/0.0.1920.1040/-1075.-2160.4096.2160@0.0.1920.1040" timestamp="1604516551683" />
+    <state x="668" y="237" width="583" height="566" key="find.popup" timestamp="1604515845099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="237" width="583" height="566" key="find.popup/0.0.1920.1040/-1075.-2160.4096.2160@0.0.1920.1040" timestamp="1604515845099" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604439209699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

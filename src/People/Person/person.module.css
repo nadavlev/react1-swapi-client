@@ -12,3 +12,15 @@
     padding: 15px;
     height: 150px;
 }
+
+.favoritesButton {
+    background-color: aquamarine;
+ }
+
+.notFavoritesButton:hover,
+.favoritesButton:hover {
+    color: crimson;
+    background-color: white;
+}
+
+

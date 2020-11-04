@@ -13,8 +13,8 @@ const person = (props) => {
             :<p> No Species </p> }
             <div onClick={() => props.onToggleFavorite(props.personData.id)}>
                 {props.favoritePeople[props.personData.id] ?
-                    'Favorite'
-                    : 'Not Favorite'
+                    <span className={classes.favoritesButton}>Favorite</span>
+                    : <span className={classes.notFavoritesButton}>Not Favorite</span>
                 }
             </div><br/>
             <Link to={'/personDetails/'+props.personData.id}>
